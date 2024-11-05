@@ -71,7 +71,7 @@
                     const trimmedBlock = blocks[i].trim();
                     if (trimmedBlock) { // Check if the block is not empty
                         await navigator.clipboard.writeText(trimmedBlock);
-                        alert(`Copied data block ${i + 1}: ${trimmedBlock}`);
+                
                     }
                 }
                 window.close();
